@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<datastore-indexes
+  xmlns="http://appengine.google.com/ns/datastore-indexes/1.0"
+  autoGenerate="false">
+    <datastore-index kind="ContentModel" ancestor="false" source="manual">
+        <property name="createUserModelRef" direction="asc"/>
+        <property name="createDate" direction="desc"/>
+    </datastore-index>
+    <datastore-index kind="ContentModel" ancestor="false" source="manual">
+        <property name="contentCategory" direction="asc"/>
+        <property name="createDate" direction="desc"/>
+    </datastore-index>
+    <datastore-index kind="ContentModel" ancestor="false" source="manual">
+        <property name="patronCountLimitFlg" direction="asc"/>
+        <property name="wishesExeDate" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="ContentModel" ancestor="false" source="manual">
+        <property name="patronCountLimitFlg" direction="asc"/>
+        <property name="wishesExeDate" direction="asc"/>
+        <property name="createDate" direction="desc"/>
+    </datastore-index>
+    <datastore-index kind="ContentModel" ancestor="false" source="manual">
+        <property name="tweetedFlg" direction="asc"/>
+        <property name="wishesExeDate" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="TransmitHistoryModel" ancestor="false" source="manual">
+        <property name="userModelRef" direction="asc"/>
+        <property name="createDate" direction="desc"/>
+    </datastore-index>
+    <datastore-index kind="TransmitHistoryModel" ancestor="false" source="manual">
+        <property name="endFlg" direction="asc"/>
+        <property name="group" direction="asc"/>
+        <property name="exeDate" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="TransmitHistoryModel" ancestor="false" source="manual">
+        <property name="contentModelRef" direction="asc"/>
+        <property name="createDate" direction="desc"/>
+    </datastore-index>
+    <datastore-index kind="CommentModel" ancestor="false" source="manual">
+        <property name="contentModelRef" direction="asc"/>
+        <property name="createDate" direction="desc"/>
+    </datastore-index>
+    <datastore-index kind="CommentModel" ancestor="false" source="manual">
+        <property name="contentModelRef" direction="asc"/>
+        <property name="createDate" direction="asc"/>
+    </datastore-index>
+</datastore-indexes>
+

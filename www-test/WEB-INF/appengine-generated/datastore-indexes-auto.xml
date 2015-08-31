@@ -1,0 +1,13 @@
+<!-- Indices written at Fri, 17 Oct 2014 19:40:26 JST -->
+
+<datastore-indexes>
+
+    <!-- Used 1 time in query history -->
+    <datastore-index kind="UserModel" ancestor="false" source="auto">
+        <property name="endFlg" direction="asc"/>
+        <property name="group" direction="asc"/>
+        <property name="slim3.classHierarchyList" direction="asc"/>
+        <property name="exeDate" direction="asc"/>
+    </datastore-index>
+
+</datastore-indexes>

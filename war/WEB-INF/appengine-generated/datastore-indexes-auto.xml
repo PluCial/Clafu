@@ -1,0 +1,12 @@
+<!-- Indices written at Fri, 31 Jul 2015 02:08:42 JST -->
+
+<datastore-indexes>
+
+    <!-- Used 8 times in query history -->
+    <datastore-index kind="ContentModel" ancestor="false" source="auto">
+        <property name="exeType" direction="asc"/>
+        <property name="patronCountLimitFlg" direction="asc"/>
+        <property name="wishesExeDate" direction="asc"/>
+    </datastore-index>
+
+</datastore-indexes>
